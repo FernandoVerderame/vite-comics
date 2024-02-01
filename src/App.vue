@@ -26,6 +26,14 @@ img {
     display: block;
 }
 
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 /* Utils */
 .container {
     max-width: 1200px;
