@@ -32,7 +32,7 @@ export default {
     </div>
 </template>
 
-<style>
+<style lang="scss" scoped>
 .footer-bottom {
     background-color: #303030;
     padding: 50px;
@@ -54,6 +54,11 @@ export default {
         background-color: #0C7CEC;
         transition: .4s;
     }
+}
+
+h3 {
+    font-size: 20px;
+    color: #0C7CEC;
 }
 
 .social-buttons {

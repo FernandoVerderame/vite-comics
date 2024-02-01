@@ -110,7 +110,7 @@ export default {
     </div>
 </template>
 
-<style>
+<style lang="scss" scoped>
 .footer-top {
     background-image: url('../assets/img/footer-bg.jpg');
     background-repeat: no-repeat;
@@ -122,6 +122,12 @@ export default {
     background-repeat: no-repeat;
     background-position-x: 1000px;
     background-position-y: center;
+}
+
+h4 {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
 }
 
 ul li {
