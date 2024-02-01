@@ -51,7 +51,7 @@ export default {
     padding: 15px;
 }
 
-a:hover {
+.sign-up-button a:hover {
     background-color: #0C7CEC;
     transition: .4s;
 }
