@@ -75,42 +75,42 @@ export default {
     </header>
 </template>
 
-<style>
+<style lang="scss" scoped>
 header {
     background-color: white;
-}
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.navbar-logo img {
-    height: 80px;
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 
 .navbar-logo {
     padding: 20px 0;
+
+    img {
+        height: 80px;
+    }
 }
 
 .navbar-links ul {
     display: flex;
-}
 
-.navbar-links a {
-    color: black;
-    font-size: 12px;
-    font-weight: 600;
-    padding: 15px 12px;
-}
+    a {
+        color: black;
+        font-size: 12px;
+        font-weight: 600;
+        padding: 15px 12px;
 
-.navbar-links a:hover {
-    background-color: #0282F9;
-    transition: .4s;
-}
+        &:hover {
+            background-color: #0282F9;
+            transition: .4s;
+        }
 
-.navbar-links a.active {
-    color: #0282F9;
+        &.active {
+            color: #0282F9;
+        }
+    }
 }
 </style>

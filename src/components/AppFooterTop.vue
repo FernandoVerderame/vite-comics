@@ -124,28 +124,22 @@ export default {
     background-position-y: center;
 }
 
-h4 {
-    color: white;
-    font-size: 18px;
-    margin-bottom: 10px;
-}
-
 ul li {
     padding: 4px 0;
-}
 
-ul li a {
-    color: gray;
-    font-size: 14px;
+    a {
+        color: gray;
+        font-size: 14px;
+    }
 }
 
 .links {
     display: flex;
     gap: 35px;
     padding: 50px 0;
-}
 
-.dc-comics-links {
-    margin-bottom: 20px;
+    .dc-comics-links {
+        margin-bottom: 20px;
+    }
 }
 </style>

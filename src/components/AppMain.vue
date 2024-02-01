@@ -15,6 +15,7 @@ export default {
 <style>
 main {
     background-color: #1C1C1C;
+
 }
 
 .main-contect {

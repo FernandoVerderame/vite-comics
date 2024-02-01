@@ -36,12 +36,12 @@ export default {
 .footer-bottom {
     background-color: #303030;
     padding: 50px;
-}
 
-.footer-bottom .buttons {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    .buttons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 
 .sign-up-button a {
@@ -49,26 +49,21 @@ export default {
     color: white;
     border: #0C7CEC 2px solid;
     padding: 15px;
-}
 
-.sign-up-button a:hover {
-    background-color: #0C7CEC;
-    transition: .4s;
-}
-
-h3 {
-    font-size: 20px;
-    color: #0C7CEC;
+    &:hover {
+        background-color: #0C7CEC;
+        transition: .4s;
+    }
 }
 
 .social-buttons {
     display: flex;
     align-items: center;
     gap: 25px;
-}
 
-.social-buttons ul {
-    display: flex;
-    gap: 20px;
+    ul {
+        display: flex;
+        gap: 20px;
+    }
 }
 </style>
