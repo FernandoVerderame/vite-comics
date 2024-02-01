@@ -9,7 +9,7 @@ export default {
 </script>
 
 <template>
-    <footer class="container">
+    <footer>
         <AppFooterTop />
         <AppFooterBottom />
     </footer>
