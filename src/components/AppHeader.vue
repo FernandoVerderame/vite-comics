@@ -50,7 +50,7 @@ export default {
 
 <style>
 header {
-    background-color: goldenrod;
+    background-color: white;
 }
 
 nav {
