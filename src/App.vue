@@ -12,4 +12,23 @@ export default {
     <AppHeader />
 </template>
 
-<style></style>
+<style>
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Generics */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Utils */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+</style>
