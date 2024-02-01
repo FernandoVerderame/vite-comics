@@ -1,5 +1,15 @@
-<script></script>
+<script>
+import AppHeader from './components/AppHeader.vue';
 
-<template></template>
+export default {
+    name: 'Vite DC Comics',
+
+    components: { AppHeader }
+};
+</script>
+
+<template>
+    <AppHeader />
+</template>
 
 <style></style>
