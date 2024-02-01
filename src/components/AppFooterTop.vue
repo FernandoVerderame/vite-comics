@@ -83,7 +83,26 @@ export default {
                 </li>
             </ul>
         </div>
-        <div class="sites-links"></div>
+        <div class="sites-links">
+            <h4>SITES</h4>
+            <ul>
+                <li>
+                    <a href="#">DC</a>
+                </li>
+                <li>
+                    <a href="#">MAD Magazine</a>
+                </li>
+                <li>
+                    <a href="#">DC Kids</a>
+                </li>
+                <li>
+                    <a href="#">DC Universe</a>
+                </li>
+                <li>
+                    <a href="#">DC Power Visa</a>
+                </li>
+            </ul>
+        </div>
     </div>
 </template>
 
@@ -104,7 +123,7 @@ ul li a {
 
 .links {
     display: flex;
-    gap: 30px;
+    gap: 35px;
 }
 
 .dc-comics-links {
