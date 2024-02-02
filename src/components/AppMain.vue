@@ -55,6 +55,7 @@ export default {
 
     .comic-card {
         flex-basis: calc(100% / 6);
+        padding: 10px;
     }
 }
 
