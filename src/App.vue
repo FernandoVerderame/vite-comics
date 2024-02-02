@@ -2,11 +2,12 @@
 import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
 import AppFooter from './components/AppFooter.vue';
+import AppJumbotron from './components/AppJumbotron.vue';
 
 export default {
     name: 'Vite DC Comics',
 
-    components: { AppHeader, AppMain, AppFooter },
+    components: { AppHeader, AppMain, AppFooter, AppJumbotron },
 
     data: () => ({
         comics: [
@@ -101,6 +102,7 @@ export default {
 
 <template>
     <AppHeader />
+    <AppJumbotron />
     <AppMain :comics="comics" />
     <AppFooter />
 </template>
