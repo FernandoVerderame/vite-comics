@@ -1,6 +1,9 @@
 <script>
 export default {
-    name: 'AppMain'
+    name: 'AppMain',
+    props: {
+        comics: Array
+    }
 };
 </script>
 

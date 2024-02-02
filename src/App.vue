@@ -101,7 +101,7 @@ export default {
 
 <template>
     <AppHeader />
-    <AppMain />
+    <AppMain :comics="comics" />
     <AppFooter />
 </template>
 
