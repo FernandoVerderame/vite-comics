@@ -14,9 +14,16 @@ export default {
 <template>
     <main>
         <section id="comics">
-            <h2>Current Series</h2>
-            <div class="container card-container">
-                <ComicCard v-for="(comic, i) in comics" :key="i" :thumb="comic.thumb" :series="comic.series" />
+            <div class="container">
+                <h2>Current Series</h2>
+                <div class="card-container">
+                    <ComicCard v-for="(comic, i) in comics" :key="i" :thumb="comic.thumb" :series="comic.series" />
+                </div>
+            </div>
+            <div class="lead-more">
+                <div class="button">
+                    <a href="#">Lead More</a>
+                </div>
             </div>
         </section>
     </main>
@@ -25,7 +32,20 @@ export default {
 <style lang="scss" scoped>
 #comics {
     background-color: #1C1C1C;
-    padding: 50px 15px;
+    padding-top: 30px;
+    position: relative;
+
+    h2 {
+        font-size: 20px;
+        padding: 15px 0;
+        color: white;
+        text-align: center;
+        width: 230px;
+        text-transform: uppercase;
+        background-color: #0282F9;
+        position: absolute;
+        top: -20px;
+    }
 }
 
 .card-container {
@@ -36,5 +56,25 @@ export default {
     .comic-card {
         flex-basis: calc(100% / 6);
     }
+}
+
+.lead-more {
+    display: flex;
+    justify-content: center;
+
+    .button {
+        margin: 40px 0;
+
+        a {
+            font-size: 15px;
+            text-transform: uppercase;
+            color: white;
+            width: 200px;
+            padding: 10px 50px;
+            background-color: #0282F9;
+        }
+    }
+
+
 }
 </style>
