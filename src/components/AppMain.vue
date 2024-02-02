@@ -9,21 +9,24 @@ export default {
 
 <template>
     <main>
-        <div class="container">
-            <div class="main-contect">-- Content goes here --</div>
-        </div>
+        <section id="comics">
+            <h2>Current Series</h2>
+            <div class="container card-container">
+
+            </div>
+        </section>
     </main>
 </template>
 
 <style>
-main {
+#comics {
     background-color: #1C1C1C;
-
+    padding: 50px 15px;
 }
 
-.main-contect {
-    font-size: 30px;
-    color: white;
-    padding: 40px 0;
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
 }
 </style>
