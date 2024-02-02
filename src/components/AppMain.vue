@@ -16,7 +16,7 @@ export default {
         <section id="comics">
             <h2>Current Series</h2>
             <div class="container card-container">
-                <ComicCard />
+                <ComicCard v-for="(comic, i) in comics" :key="i" :thumb="comic.thumb" :series="comic.series" />
             </div>
         </section>
     </main>
