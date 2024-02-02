@@ -4,6 +4,13 @@ export default {
 };
 </script>
 
-<template></template>
+<template>
+    <section id="jumbotron"></section>
+</template>
 
-<style></style>
+<style lang="scss" scoped>
+#jumbotron {
+    height: 400px;
+    background-image: url('../assets/img/jumbotron.jpg');
+}
+</style>
